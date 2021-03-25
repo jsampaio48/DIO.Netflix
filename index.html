@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>NETFLIX Clone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS </h3>
+                <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+                <div class="botoes">
+                    <button role="button" class="botao"><i class="fas fa-play-circle"></i>ASSISTIR AGORA</button>
+                    <button role="button" class="botao"><i class="fas fa-info-circle"></i>MAIS INFORMAÇÕES</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item" id="myBtn1" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini1.jpg" alt=""></div>
+            <div class="item" id="myBtn2" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini2.jpg" alt=""></div>
+            <div class="item" id="myBtn3" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini3.jpg" alt=""></div>
+            <div class="item" id="myBtn4" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini4.jpg" alt=""></div>
+            <div class="item" id="myBtn5" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini5.jpg" alt=""></div>
+            <div class="item" id="myBtn6" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini6.jpg" alt=""></div>
+            <div class="item" id="myBtn7" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini7.jpg" alt=""></div>
+            <div class="item" id="myBtn8" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini8.jpg" alt=""></div>
+            <div class="item" id="myBtn9" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini9.jpg" alt=""></div>
+            <div class="item" id="myBtn10" onmousedown="BuscaBtn(this)"><img class="box-filme" src="img/mini10.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="bloco-video" width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c716d8435f.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
